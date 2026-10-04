@@ -2,8 +2,9 @@
   "generatedBy": "scripts/build.cjs",
   "note": "SHA-256 covers each packaged source, screenshot, sample, and generated ZIP; this manifest is external to avoid self-reference.",
   "entries": {
+    ".gitattributes": "0bb7bbfb7e25f01e060ee530fd575a249564e8ccf73632f7c6be238e09dba6ff",
     "app.js": "efdad19a702deb21c972badb181edc331746de27f76c92f201f170f5a6a8b90f",
-    "dist/atelier-showcase.zip": "11f801eb5a293e885e876e039826088e09e5b305761c06bf89cbc5f5f28e3f67",
+    "dist/atelier-showcase.zip": "e77d27d23757f15de5ce419b6dc1ad1b5f940f1e904ec3e897ce87e9c6de169c",
     "dist/free-samples.zip": "93eed8fb13b979203d80a90f49f9696cdfa069ff3ef659d334100d2797f95fef",
     "index.html": "d769f91dd8f5b1d3ea99bf0cf9ad58b07bbf8e4ff94e398525139b08884a7388",
     "LICENSE": "774c505125daa8b892daae947230f5012f466ab2c60ecc38bf7344b27acdae22",
@@ -13,7 +14,7 @@
     "media/sound-studio.png": "340ed0187bab22d56a5c70ef13531de939064411a205d70cd047c58dcc8524a1",
     "media/stepbook.png": "22f26b45116a9cf6e66756cd0c030125e45c95a2ca50a9b278d5ca2c737fd6ec",
     "preview.png": "c227ed3743c2a3359e7b7fa1702669bb0339d21c092991a4f070135379dea9bf",
-    "README.md": "e39332392419ede147fd8b2b5fb70f4f4f852a40636ba905daf708a2c5e8a898",
+    "README.md": "5a2c40b87578497c4520d815167edbe82095bc84fa14040cc5ef0bf9a8dc431d",
     "SAMPLE-ASSETS-LICENSE.txt": "d7dd5bd27e1620252f97cb8abff8c019f0870cae0f2f95b13dbe866009d7e733",
     "samples/orange-cat/frames/frame-01.png": "200c765bb11acd557f33846ff86edb047322045be827aaf3983b5b0789b45838",
     "samples/orange-cat/frames/frame-02.png": "4fab00d76fd839d9dac78ff727b78dd942ec0f9ecccb8856e45ad40b558f769f",
@@ -26,7 +27,7 @@
     "samples/sfx/04-bubble.wav": "2aae7fd75725aa1104639532b2afc17133053ae62619b84257b51d6b2eb2753a",
     "samples/sfx/05-confirm.wav": "e71d7568ac9f4a5d4c824f0cade107c68efeeb44cbb3239a52a3f3fcecdbaf31",
     "samples/sfx/metadata.json": "01a547ce61b95c3bb6d9d47dddedb0be6db0f1fec335fa2ce78598ab1d421ff2",
-    "scripts/build.cjs": "6de57272df73302cbd9b8088ce5c08f09fae0c32684fec0a231de02d39b14a61",
+    "scripts/build.cjs": "c8753f5546fb3b33caf0a49ac232791e405b53a4450ffca49b0391c87aa7716c",
     "SOURCE-ORIGINS.md": "2fc802783285d05e4810db56c7db533799f433876a72d47d276c729684073cb4",
     "style.css": "93ee76c89bc006a045b30b2098dfce82b3a968ec19c9a0fe69a21f1335f276f4",
     "VALIDATION.md": "379d715b2d852db8487da12b21b505e368a6e9e607804269007f1bb6652efec8"

@@ -99,6 +99,7 @@ function sampleEntries() {
 
 function showcaseEntries() {
   const fixed = [
+    '.gitattributes',
     'index.html', 'style.css', 'app.js', 'README.md', 'LICENSE', 'preview.png', 'scripts/build.cjs',
     'SAMPLE-ASSETS-LICENSE.txt', 'SOURCE-ORIGINS.md', 'VALIDATION.md',
   ];
@@ -119,6 +120,7 @@ const manifest = {
   generatedBy: 'scripts/build.cjs',
   note: 'SHA-256 covers each packaged source, screenshot, sample, and generated ZIP; this manifest is external to avoid self-reference.',
   entries: Object.fromEntries([
+    '.gitattributes',
     'index.html', 'style.css', 'app.js', 'README.md', 'LICENSE',
     'SAMPLE-ASSETS-LICENSE.txt', 'SOURCE-ORIGINS.md', 'VALIDATION.md',
     'preview.png', 'scripts/build.cjs', ...walk('media'), ...walk('samples'),

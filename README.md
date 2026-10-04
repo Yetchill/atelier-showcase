@@ -43,3 +43,7 @@ node scripts/build.cjs
 ## 检查
 
 验证步骤和已执行结果见 [`VALIDATION.md`](VALIDATION.md)。
+
+## 1.0.1 源码字节保留
+
+通过 `.gitattributes` 禁用 Git 的自动换行转换，保留样例文件的实际字节与校验输入。避免不同电脑检出源码后，把 UTF-8/GB18030、CRLF、引号内换行或 SHA-256 所依据的文件悄悄改写。软件/样品功能未改变；更新后的来源包会进行全新检出验证。
