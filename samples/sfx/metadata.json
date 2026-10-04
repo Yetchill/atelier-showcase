@@ -1,0 +1,57 @@
+{
+  "format": "atelier-showcase-sfx-sample",
+  "sourcePresetVersion": 1,
+  "sampleRate": 44100,
+  "channels": 1,
+  "bitDepth": 16,
+  "sounds": [
+    {
+      "file": "01-pickup.wav",
+      "id": "pickup",
+      "name": "拾取",
+      "description": "清脆上扬，适合收集小物。",
+      "params": {
+        "duration": 0.32,
+        "pitch": 880,
+        "slide": 7,
+        "waveform": "sine",
+        "volume": 0.28,
+        "attack": 0.004,
+        "decay": 0.22,
+        "seed": 301
+      }
+    },
+    {
+      "file": "04-bubble.wav",
+      "id": "bubble",
+      "name": "泡泡",
+      "description": "圆润的咕噜音，轻轻收尾。",
+      "params": {
+        "duration": 0.52,
+        "pitch": 510,
+        "slide": -17,
+        "waveform": "sine",
+        "volume": 0.25,
+        "attack": 0.012,
+        "decay": 0.46,
+        "seed": 304
+      }
+    },
+    {
+      "file": "05-confirm.wav",
+      "id": "confirm",
+      "name": "确认",
+      "description": "温和双音，适合完成操作。",
+      "params": {
+        "duration": 0.36,
+        "pitch": 590,
+        "slide": 4,
+        "waveform": "triangle",
+        "volume": 0.28,
+        "attack": 0.006,
+        "decay": 0.3,
+        "seed": 305
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "name": "橘猫 · 摇尾巴",
+  "title": "橘猫",
+  "description": "甩尾眨眼",
+  "width": 24,
+  "height": 24,
+  "layout": "horizontal",
+  "frameCount": 4,
+  "fps": 7,
+  "frameDurationMs": 142.85714285714286,
+  "loop": true,
+  "palette": [
+    "#29263b",
+    "#f7f0df",
+    "#ec7959",
+    "#f4bb62",
+    "#9a6bd1",
+    "#7da98c",
+    "#67bcc4",
+    "#df7187",
+    "#5a5268",
+    "#c99468",
+    "#bdd39b",
+    "#547b9e",
+    "#f2a7b7",
+    "#b18bd9",
+    "#354b3b",
+    "#ffffff"
+  ],
+  "transparentIndex": -1,
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/frame-01.png",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "durationMs": 142.85714285714286
+    },
+    {
+      "index": 1,
+      "file": "frames/frame-02.png",
+      "x": 24,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "durationMs": 142.85714285714286
+    },
+    {
+      "index": 2,
+      "file": "frames/frame-03.png",
+      "x": 48,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "durationMs": 142.85714285714286
+    },
+    {
+      "index": 3,
+      "file": "frames/frame-04.png",
+      "x": 72,
+      "y": 0,
+      "width": 24,
+      "height": 24,
+      "durationMs": 142.85714285714286
+    }
+  ],
+  "license": "../../SAMPLE-ASSETS-LICENSE.txt"
+}
