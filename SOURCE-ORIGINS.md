@@ -17,6 +17,7 @@
 - `media/frame-studio.png`：sprite-foundry / 帧匣像素编辑器界面预览。
 - `media/sound-studio.png`：sound-jar / 声匣音效编辑器界面预览。
 - `media/card-cottage.png`：card-cottage / 纸牌铺的编辑器与卡片预览界面。
+- `media/page-margin-sidepanel.png` 与 `media/page-margin-library.png`：页边笺在本机 Chrome 中的真实侧栏和笔记库截图。使用独立干净的浏览器配置文件和本项目原创示意文本/图形制作，没有客户笔记或账号资料；截图只用于界面展示，不随附可安装扩展。
 
 这些截图仅用于展示软件界面，不包含完整软件授权。截图也不应被解释为第三方客户推荐或已实现销售结果。
 

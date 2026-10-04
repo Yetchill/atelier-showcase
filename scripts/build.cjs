@@ -8,7 +8,7 @@ const zlib = require('node:zlib');
 
 const root = path.resolve(__dirname, '..');
 const dist = path.join(root, 'dist');
-const fixedDate = new Date(Date.UTC(2026, 9, 4, 0, 0, 0));
+const fixedDate = new Date(Date.UTC(2026, 9, 5, 0, 0, 0));
 const dosTime = ((fixedDate.getUTCHours() & 31) << 11) | ((fixedDate.getUTCMinutes() & 63) << 5) | ((fixedDate.getUTCSeconds() / 2) & 31);
 const dosDate = (((fixedDate.getUTCFullYear() - 1980) & 127) << 9) | ((fixedDate.getUTCMonth() + 1) << 5) | fixedDate.getUTCDate();
 
@@ -100,7 +100,7 @@ function sampleEntries() {
 function showcaseEntries() {
   const fixed = [
     '.gitattributes',
-    'index.html', 'style.css', 'app.js', 'README.md', 'LICENSE', 'preview.png', 'scripts/build.cjs',
+    'index.html', 'style.css', 'app.js', 'page-margin-preview.html', 'README.md', 'LICENSE', 'preview.png', 'scripts/build.cjs',
     'SAMPLE-ASSETS-LICENSE.txt', 'SOURCE-ORIGINS.md', 'VALIDATION.md',
   ];
   const files = [...fixed, ...walk('media'), ...walk('samples'), 'dist/free-samples.zip'];
@@ -117,11 +117,12 @@ fs.writeFileSync(path.join(dist, 'free-samples.zip'), sampleZip);
 const showcaseZip = makeZip(showcaseEntries());
 fs.writeFileSync(path.join(dist, 'atelier-showcase.zip'), showcaseZip);
 const manifest = {
+  version: '1.1.0',
   generatedBy: 'scripts/build.cjs',
-  note: 'SHA-256 covers each packaged source, screenshot, sample, and generated ZIP; this manifest is external to avoid self-reference.',
+  note: 'SHA-256 covers each packaged source, screenshot, sample, and generated ZIP; this manifest is external to avoid self-reference. The Page Margin extension itself is intentionally excluded.',
   entries: Object.fromEntries([
     '.gitattributes',
-    'index.html', 'style.css', 'app.js', 'README.md', 'LICENSE',
+    'index.html', 'style.css', 'app.js', 'page-margin-preview.html', 'README.md', 'LICENSE',
     'SAMPLE-ASSETS-LICENSE.txt', 'SOURCE-ORIGINS.md', 'VALIDATION.md',
     'preview.png', 'scripts/build.cjs', ...walk('media'), ...walk('samples'),
     'dist/free-samples.zip', 'dist/atelier-showcase.zip',
